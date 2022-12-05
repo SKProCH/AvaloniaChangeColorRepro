@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaChangeColorRepro", "AvaloniaChangeColorRepro\AvaloniaChangeColorRepro\AvaloniaChangeColorRepro.csproj", "{204498C1-BEE6-4D86-870B-EB48F11F009E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaChangeColorRepro.Desktop", "AvaloniaChangeColorRepro\AvaloniaChangeColorRepro.Desktop\AvaloniaChangeColorRepro.Desktop.csproj", "{6D17D924-854E-487A-A66E-22327A571454}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaChangeColorRepro.Web", "AvaloniaChangeColorRepro\AvaloniaChangeColorRepro.Web\AvaloniaChangeColorRepro.Web.csproj", "{0C3E8764-B5EE-40D7-8FF7-B2A1AB113957}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{204498C1-BEE6-4D86-870B-EB48F11F009E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{204498C1-BEE6-4D86-870B-EB48F11F009E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{204498C1-BEE6-4D86-870B-EB48F11F009E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{204498C1-BEE6-4D86-870B-EB48F11F009E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D17D924-854E-487A-A66E-22327A571454}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D17D924-854E-487A-A66E-22327A571454}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D17D924-854E-487A-A66E-22327A571454}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D17D924-854E-487A-A66E-22327A571454}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C3E8764-B5EE-40D7-8FF7-B2A1AB113957}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C3E8764-B5EE-40D7-8FF7-B2A1AB113957}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C3E8764-B5EE-40D7-8FF7-B2A1AB113957}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C3E8764-B5EE-40D7-8FF7-B2A1AB113957}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
