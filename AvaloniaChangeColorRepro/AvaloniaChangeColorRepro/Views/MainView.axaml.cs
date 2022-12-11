@@ -30,4 +30,11 @@ public partial class MainView : UserControl {
             styleResource.Color = c;
         }
     }
+    
+    
+    private void ButtonReAdd_OnClick(object? sender, RoutedEventArgs e) {
+        var style = App.Current.Styles.Last() as Style;
+        App.Current.Styles.Remove(style);
+        App.Current.Styles.Add(style);
+    }
 }

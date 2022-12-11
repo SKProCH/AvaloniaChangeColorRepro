@@ -3,16 +3,19 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:viewModels="clr-namespace:AvaloniaChangeColorRepro.ViewModels"
+             xmlns:avaloniaChangeColorRepro="clr-namespace:AvaloniaChangeColorRepro"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="AvaloniaChangeColorRepro.Views.MainView"
-             Foreground="White"
-             Background="{DynamicResource MaterialDesignBody}">
+             TextElement.Foreground="{DynamicResource MaterialDesignBody}" Background="DarkGray">
   <Design.DataContext>
     <viewModels:MainViewModel />
   </Design.DataContext>
 
   <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-    <TextBox Text="{Binding Greeting}" Foreground="{DynamicResource MaterialDesignBody}"/>
+    <TextBox Text="TEXTBOX" Foreground="{DynamicResource MaterialDesignBody}" />
+    <TextBlock>NORMAL COLORED TEXT TEXTBLOCK</TextBlock>
+    <avaloniaChangeColorRepro:MyTestControl />
     <Button Click="Button_OnClick">CHANGE</Button>
+    <Button Click="ButtonReAdd_OnClick">RE ADD RESOURCE (SHOULD FIX TEXTBLOCK)</Button>
   </StackPanel>
 </UserControl>
