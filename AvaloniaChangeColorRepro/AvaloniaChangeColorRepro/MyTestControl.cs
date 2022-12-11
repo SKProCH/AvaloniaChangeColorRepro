@@ -1,7 +1,5 @@
 using Avalonia.Controls.Primitives;
 
-namespace AvaloniaChangeColorRepro; 
+namespace AvaloniaChangeColorRepro;
 
-public class MyTestControl : TemplatedControl{
-    
-}
+public class MyTestControl : TemplatedControl { }

@@ -19,16 +19,8 @@ public partial class MainView : UserControl {
         _isDark = !_isDark;
         var c = _isDark ? Color.Parse("White") : Color.Parse("Black");
         var style = App.Current.Styles.Last() as Style;
-        var resource = style.Resources["MaterialDesignBody"];
-        if (resource == null)
-        {
-            style.Resources.Add("MaterialDesignBody", new SolidColorBrush(c));
-        }
-        else
-        {
-            var styleResource = resource as SolidColorBrush;
-            styleResource.Color = c;
-        }
+        var resource = style.Resources["MaterialDesignBody"] as SolidColorBrush;
+        resource.Color = c;
     }
     
     

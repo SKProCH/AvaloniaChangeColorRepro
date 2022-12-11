@@ -18,9 +18,11 @@
     <ControlTheme x:Key="{x:Type local:MyTestControl}" TargetType="local:MyTestControl">
       <Setter Property="Template">
         <ControlTemplate>
+          <!-- StackPanel (or other control without Foreground property, like Border or Grid) IS IMPORTANT -->
           <StackPanel>
             <TextBlock>BROKEN COLORED TEXT TEXTBLOCK</TextBlock>
           </StackPanel>
+          <!-- StackPanel (or other control without Foreground property, like Border or Grid) IS IMPORTANT -->
         </ControlTemplate>
       </Setter>
     </ControlTheme>
